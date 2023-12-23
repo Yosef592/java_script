@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>js_3</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+
+    <body>
+        <h1>arithematec operator</h1>
+        <hr>
+        <p id="add"></p>
+        <p id="sub"></p>
+        <p id="mult"></p>
+        <p id="div"></p>
+        <p id="mod"></p>
+        <p id="inc"></p>
+        <p id="dec"></p>
+        <hr>
+
+        <h1>comparation oprater</h1>
+        <hr>
+        <p id="eq"></p>
+        <p id="nq"></p>
+        <p id="gt"></p>
+        <p id="lt"></p>
+        
+        <!-- js code -->
+        <script>
+            var a = 10, b = 20;
+            document.getElementById("add").innerHTML="a + b = "+(a+b);
+            document.getElementById("sub").innerHTML="a - b = "+(a-b);
+            document.getElementById("mult").innerHTML="a * b = "+(a*b);
+            document.getElementById("div").innerHTML="a / b = "+(a/b);
+            document.getElementById("mod").innerHTML="a % b = "+(a%b);
+            document.getElementById("inc").innerHTML="++ a = "+(++a);
+            document.getElementById("dec").innerHTML="-- b = "+(--b);
+
+
+            var c = 5, d = 15;
+            document.getElementById("eq").innerHTML="a == b => "+(a==b);
+            document.getElementById("nq").innerHTML="a != b => "+(a!=b);
+            document.getElementById("gt").innerHTML="a > b => "+(a>b);
+            document.getElementById("lt").innerHTML="a < b => "+(a<b);
+        </script>
+        <!-- done -->
+    </body>
+</html>
